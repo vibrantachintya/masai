@@ -1,0 +1,56 @@
+body {
+  width: 60%;
+  margin: 0px auto;
+}
+#nav-bar {
+  margin-top: 50px;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: right;
+  border: 1px solid teal;
+}
+
+#nav-bar > a {
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+#cart-container {
+  display: flex;
+  justify-content: end;
+}
+
+#dishes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+#dishes-container > div {
+  border: 1px solid teal;
+}
+
+#dishes-container > div > img {
+  width: 100%;
+}
+
+#dishes-container > div > div {
+  padding: 10px;
+}
+
+#dishes-container > div > div > h4,
+#dishes-container > div > div > h5 {
+  margin: 5px 0px;
+}
+
+#dishes-container > div > div > button {
+  background: teal;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}

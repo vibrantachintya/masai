@@ -1,0 +1,69 @@
+body {
+  width: 60%;
+  margin: 0px auto;
+}
+#nav-bar {
+  margin-top: 50px;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: right;
+  border: 1px solid teal;
+}
+
+#nav-bar > a {
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+#dishes-container {
+  width: 40%;
+  margin: 0px auto;
+}
+
+#dishes-container > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+#dishes-container > div > h4,
+#dishes-container > div > h5,
+#total-container > h4,
+#total-container > h5 {
+  width: 40%;
+  display: block;
+  margin: 5px 0px;
+}
+
+#dishes-container > div > button {
+  background: teal;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#total-container {
+  width: 40%;
+  display: flex;
+  margin: 10px auto;
+  padding-top: 10px;
+  border-top: 1px solid teal;
+}
+
+#checkout {
+  background: teal;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block;
+}
